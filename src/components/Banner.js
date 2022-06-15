@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 import Button from "./Button";
 
-import img1 from "../assets/Nfts/bighead.svg";
-import img2 from "../assets/Nfts/bighead-1.svg";
-import img3 from "../assets/Nfts/bighead-2.svg";
-import img4 from "../assets/Nfts/bighead-3.svg";
-import img5 from "../assets/Nfts/bighead-4.svg";
-import img6 from "../assets/Nfts/bighead-5.svg";
+import img1 from "../assets/Nfts/listBong1.png";
+import img2 from "../assets/Nfts/listBong2.png";
+import img3 from "../assets/Nfts/listBong3.png";
+import img4 from "../assets/Nfts/listBong4.png";
+import img5 from "../assets/Nfts/listBong5.png";
+import img6 from "../assets/Nfts/listBong6.png";
 
 const Section = styled.section`
   width: 100vw;
@@ -146,11 +146,14 @@ const Banner = () => {
         <img src={img6} alt="The Weirdos" />
       </ImgContainer>
       <Title>
-        Join the <br /> weirdos club
+        Join the <br /> Weed of Fortune Club
       </Title>
       <BtnContainer>
-        <JoinNow>join now</JoinNow>
+      <a href="https://discord.gg/FwvUJQnhhD" target="_blank"> 
+        <JoinNow>Join Now</JoinNow>
+        </a>
       </BtnContainer>
+     
     </Section>
   );
 };

@@ -6,7 +6,7 @@ import Logo from "./Logo";
 import Facebook from "../Icons/Facebook";
 import Instagram from "../Icons/Instagram";
 import Twitter from "../Icons/Twitter";
-import LinkedIn from "../Icons/LinkedIn";
+import Discord from "../Icons/Discord";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -39,7 +39,7 @@ const Container = styled.div`
 
 const IconList = styled.div`
   display: flex;
-  align-items: center;
+  align-items: left;
   margin: 1rem auto;
 
   & > * {
@@ -133,7 +133,7 @@ const Footer = () => {
         <Left>
           <Logo />
           <IconList>
-            <a
+            {/* <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -146,20 +146,20 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <Instagram />
-            </a>
+            </a> */}
             <a
-              href="https://twitter.com"
+              href="https://twitter.com/WOFortuneNFT"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Twitter />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://discord.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <LinkedIn />
+              <Discord />
             </a>
           </IconList>
         </Left>
@@ -174,17 +174,11 @@ const Footer = () => {
       </Container>
       <Bottom>
         <span>
-          &copy; {new Date().getFullYear()} Weirdos Club. All rights reserved.
+          &copy; {new Date().getFullYear()} Weed of Fortune Club. All rights reserved.
         </span>
         <span>
           Made with &#10084; by
-          <a
-            href="https://youtube.com/codebucks"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CodeBucks
-          </a>
+          Harry & Bilbo 
         </span>
       </Bottom>
     </Section>
